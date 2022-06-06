@@ -6,10 +6,10 @@
 - Edit the config.h file to match your config settings
 - Compile & upload the sketch to your board
 
-# Requirements (recommended)
+## Requirements (recommended)
 * ESP32 WiFi Wireless Bluetooth Module LILYGO TTGO T-Display Development Board For Arduino(16MB)
 
-# Components Used
+## Components Used
 | Product      | Link |
 | ----------- | ----------- |
 | ESP32 WiFi Wireless Bluetooth Module LILYGO TTGO T-Display Development Board For Arduino(16MB) | [Link](amazon.co.uk/gp/product/B09WHS11BK) |
