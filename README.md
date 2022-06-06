@@ -1,1 +1,1 @@
-"# StockTicker-TTGO-T-Display" 
+# StockTicker-TTGO-T-Display
