@@ -35,6 +35,8 @@ void connectWifi() {
   tft.setTextDatum(MC_DATUM);
   tft.setTextSize(1.25);
 
+  WiFi.begin(WIFI_SSID, WIFI_PASSWORD);
+  
   while (WiFi.status() != WL_CONNECTED) {
 
     tft.setTextColor(TFT_BLUE, TFT_BLACK);
@@ -44,9 +46,7 @@ void connectWifi() {
     Serial.println(WIFI_SSID);
     Serial.println(WIFI_PASSWORD);
     
-    WiFi.begin(WIFI_SSID, WIFI_PASSWORD);
     delay(2500);
-    Serial.println(WiFi.status());
   }
 
   tft.setTextColor(TFT_GREEN, TFT_BLACK);
